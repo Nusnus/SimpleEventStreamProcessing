@@ -1,0 +1,10 @@
+# basically just to name the docker image
+
+version: '3.4'
+
+services:
+  simple_events_processor:
+    image: simple_events_processor
+    build:
+      context: .
+      dockerfile: Dockerfile
